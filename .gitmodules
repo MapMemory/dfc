@@ -1,0 +1,6 @@
+[submodule "dfc-server"]
+	path = dfc-server
+	url = https://github.com/MapMemory/dfc-server
+[submodule "dfc-site"]
+	path = dfc-site
+	url = https://github.com/MapMemory/dfc-site
