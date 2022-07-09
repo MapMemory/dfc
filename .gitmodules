@@ -1,8 +1,8 @@
 [submodule "dfc-server"]
 	path = dfc-server
 	url = https://github.com/MapMemory/dfc-server
-    branch = tags/main
+    branch = main
 [submodule "dfc-site"]
 	path = dfc-site
 	url = https://github.com/MapMemory/dfc-site
-    branch = tags/main
+    branch = main
