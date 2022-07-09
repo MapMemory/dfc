@@ -63,7 +63,9 @@ message_info "Подпроекты: 'dfc-server' и 'dfc-site'" 1
 message_space 1
 message_space 1
 message_info "Скачивание репозитория 'dfc' целиком" 1
-git submodule update --init
+git submodule update --remote &> /dev/null
+(cd $dfc_project_main_folder/dfc-server && git checkout main) &> /dev/null
+(cd $dfc_project_main_folder/dfc-site && git checkout main) &> /dev/null
 message_info "Разворачивание подпроекта 'dfc-server'" 1
 message_space 1
 (cd $dfc_project_main_folder/dfc-server && sh dfc-create.sh -d1)
